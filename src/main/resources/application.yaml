@@ -1,0 +1,21 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 8080
+# 应用名称
+spring:
+  application:
+    name: zcmu_function
+# java mail
+  mail:
+    host: smtp.qq.com
+    protocol: smtps
+    username: 2479711422@qq.com
+    password: hyfaxtomhlniebdi
+    port: 465
+    properties:
+      mail:
+        smtp:
+          socketFactort:
+            port: 465
+            class: javax.net.ssl.SSLSocketFactory
+            fallback: false
